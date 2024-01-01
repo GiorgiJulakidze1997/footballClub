@@ -4,7 +4,7 @@ import * as stylex from '@stylexjs/stylex';
 
 const styles = stylex.create({
   introduction: {
-    color: 'blue'.
+    color: 'blue',
   },
 });
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
 
-      <h1 {...stylex.props(styles.heading)}>
+      <h1 {...stylex.props(styles.introduction)}>
         Coming soon ...
       </h1>
     </div>
