@@ -1,21 +1,22 @@
 import './App.css'
-import * as stylex from '@stylexjs/stylex';
+// import * as stylex from '@stylexjs/stylex';
 
 
-const styles = stylex.create({
-  introduction: {
-    color: 'blue',
-  },
-});
+// const styles = stylex.create({
+//   in: {
+//     color: 'blue',
+//   },
+// });
 
 
 
 function App() {
 
+
   return (
     <div>
 
-      <h1 {...stylex.props(styles.introduction)}>
+      <h1>
         Coming soon ...
       </h1>
     </div>
